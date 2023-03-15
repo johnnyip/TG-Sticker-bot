@@ -14,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 # Set the environment variables for the Telegram bot API token
-ENV TELEGRAM_BOT_TOKEN=<your-telegram-bot-api-token>
+ENV TELEGRAM_BOT_TOKEN=
 
 # Start the application using npm
 CMD ["npm", "start"]
