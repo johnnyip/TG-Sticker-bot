@@ -71,7 +71,7 @@ bot.onText(/\/start/, (msg) => {
 
 [Telegram Machiko29](https://t.me/addstickers/Machiko_29_by_johnnyip_stickerbot)
 
-[Telegram Machiko30](https://t.me/addstickers/Machiko_30_by_johnnyip_stickerbot)
+[Telegram Machiko30](https://t.me/addstickers/Machiko30_by_johnnyip_stickerbot)
 
 請慢用～
 
