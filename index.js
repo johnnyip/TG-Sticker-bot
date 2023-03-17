@@ -5,9 +5,17 @@ const TelegramBot = require('node-telegram-bot-api');
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 
 
+// Handle text messages
+bot.on('message', (msg) => {
+    // bot.sendMessage(msg.chat.id, 'You said: ' + msg.text);
+    console.log("msg: "+msg.text +", chatId: "+msg.chat.id);
+  });
+
 // Handle /start command
 bot.onText(/\/start/, (msg) => {
     // bot.sendMessage(msg.chat.id, 'Click to get the TG sticker download link\n  [Link](google.com)', options);
+
+    
 
     bot.sendMessage(msg.chat.id, `
 [Telegram Machiko1](https://t.me/addstickers/Machiko_1_by_johnnyip_stickerbot)
