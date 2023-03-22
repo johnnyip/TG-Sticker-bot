@@ -1,2 +1,3 @@
-# tg-notify-bot
+# tg-sticker-bot
  
+For my sticker download page
