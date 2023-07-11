@@ -81,8 +81,6 @@ bot.onText(/\/start/, (msg) => {
 
 [Telegram Machiko30](https://t.me/addstickers/Machiko30_by_johnnyip_stickerbot)
 
-請慢用～
-
 `, { parse_mode: 'MarkdownV2' });
 
 });
