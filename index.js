@@ -7,17 +7,17 @@ const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 
 // Handle text messages
 bot.on('message', (msg) => {
-    // bot.sendMessage(msg.chat.id, 'You said: ' + msg.text);
-    console.log("msg: "+msg.text +", chatId: "+msg.chat.id);
-  });
+  // bot.sendMessage(msg.chat.id, 'You said: ' + msg.text);
+  console.log("msg: " + msg.text + ", chatId: " + msg.chat.id);
+});
 
 // Handle /start command
 bot.onText(/\/start/, (msg) => {
-    // bot.sendMessage(msg.chat.id, 'Click to get the TG sticker download link\n  [Link](google.com)', options);
+  // bot.sendMessage(msg.chat.id, 'Click to get the TG sticker download link\n  [Link](google.com)', options);
 
-    
 
-    bot.sendMessage(msg.chat.id, `
+
+  bot.sendMessage(msg.chat.id, `
 [Telegram Machiko1](https://t.me/addstickers/Machiko_1_by_johnnyip_stickerbot)
 
 [Telegram Machiko2](https://t.me/addstickers/Machiko_2_by_johnnyip_stickerbot)
@@ -85,7 +85,7 @@ bot.onText(/\/start/, (msg) => {
 
 [Telegram Machiko31](https://t.me/addstickers/Machiko31_by_johnnyip_stickerbot)
 
-[Telegram Machiko32 (coming soon)](https://t.me/addstickers/Machiko32_by_johnnyip_stickerbot)
+[Telegram Machiko32](https://t.me/addstickers/Machiko32_by_johnnyip_stickerbot)
 
 `, { parse_mode: 'MarkdownV2' });
 
