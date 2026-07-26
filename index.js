@@ -1,5 +1,5 @@
 // const fs = require('fs');
-const TelegramBot = require('node-telegram-bot-api');
+const { TelegramBot } = require('node-telegram-bot-api');
 
 // Replace YOUR_TOKEN_HERE with your actual bot token
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
@@ -98,6 +98,5 @@ bot.onText(/\/start/, (msg) => {
 `, { parse_mode: 'MarkdownV2' });
 
 });
-
 
 
