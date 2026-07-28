@@ -95,8 +95,9 @@ bot.onText(/\/start/, (msg) => {
 
 [Telegram Machiko36](https://t.me/addstickers/Machiko_Rabbit5_by_johnnyip_stickerbot)
 
+[Telegram Machiko37](https://t.me/addstickers/Machiko_Rabbit_X_LINE_FRIENDS_by_johnnyip_stickerbot)
+
 `, { parse_mode: 'MarkdownV2' });
 
 });
-
 
